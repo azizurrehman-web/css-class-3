@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <!-- navbar -->
+
+    <nav class="navbar sm:navbar-expand bg-1 fg-2">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Hasib</a>
+    <button class="btn-icon navbar-toggler" type="button" data-bs-toggle="drawer" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon" aria-hidden="true"></span>
+    </button>
+    <dialog class="drawer drawer-end" tabindex="-1" id="navbarNav" aria-labelledby="navbarNavLabel">
+      <div class="drawer-header">
+        <h5 class="drawer-title" id="navbarNavLabel">Menu</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="drawer" aria-label="Close"></button>
+      </div>
+      <div class="drawer-body">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+      </div>
+    </dialog>
+  </div>
+</nav>
+
+    <!-- navbar end -->
+
+    <!-- carousel -->
+
+    <div id="carouselStackedBottom" class="carousel slide">
+  <div class="carousel-inner rounded-5">
+    <div class="carousel-item active">
+      <img src="..." class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="..." class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="..." class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <div>
+    <button class="btn-icon btn-sm" type="button" data-bs-target="#carouselStackedBottom" data-bs-slide="prev">
+      <span class="carousel-icon-prev" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="btn-icon btn-sm" type="button" data-bs-target="#carouselStackedBottom" data-bs-slide="next">
+      <span class="carousel-icon-next" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+
+    <!-- carousel end -->
+
+    <!-- menu link -->
+
+    <div class="menu show position-static">
+  <a class="menu-item theme-primary" href="#">Primary link</a>
+  <a class="menu-item theme-secondary" href="#">Secondary link</a>
+  <a class="menu-item theme-success" href="#">Success link</a>
+  <a class="menu-item theme-danger" href="#">Danger link</a>
+</div>
+<div class="menu show position-static">
+  <a class="menu-item active theme-primary" href="#">Primary link</a>
+  <a class="menu-item active theme-secondary" href="#">Secondary link</a>
+  <a class="menu-item active theme-success" href="#">Success link</a>
+  <a class="menu-item active theme-danger" href="#">Danger link</a>
+</div>
+
+    <!-- menu link end -->
+
+
+    <script type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL" crossorigin="anonymous"></script>
+</body>
+</html>
